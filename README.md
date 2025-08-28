@@ -21,12 +21,7 @@ python model.py
 python main.py
 streamlit run app.py
 
-## Video link
 
-# Using Web Interface
-https://1drv.ms/v/c/470a9832c1a989ec/EQOtoU0nYblBpHFKeq2ztO0Bc-ozPv_UQEIA01Fgi0jOOw?e=89Epl0
 
- # Using open CV:
-https://1drv.ms/v/c/470a9832c1a989ec/EVufLLoFU6RDtnrP1reywCUB5CgK0aimi3mvVzsqWyjXiw?e=cEBdtm
 
 
