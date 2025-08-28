@@ -27,13 +27,6 @@ ace_cnn_project/
 
 1. Create Virtual Environment
 
-Using Conda:
-
-conda create -n ace_env python=3.10 -y
-conda activate ace_env
-
-Or using venv:
-
 python -m venv ace_env
 .\ace_env\Scripts\activate  # On Windows
 
@@ -97,11 +90,11 @@ streamlit run app_streamlit.py
 
 📊 Results
 
-    ✅ Test Accuracy: ~99% on MNIST
+     Test Accuracy: ~99% on MNIST
 
-    ✅ Robust confusion matrix (minimal misclassifications)
+     Robust confusion matrix (minimal misclassifications)
 
-    ⚡ Extendable to custom datasets
+     Extendable to custom datasets
 
 📌 Requirements
 
@@ -121,6 +114,7 @@ streamlit run app_streamlit.py
 ## 📌 Video link
  Using Web interface: https://1drv.ms/v/c/470a9832c1a989ec/EQOtoU0nYblBpHFKeq2ztO0Bc-ozPv_UQEIA01Fgi0jOOw?e=89Epl0
 Using Web cam: https://1drv.ms/v/c/470a9832c1a989ec/ETIkJzwQwsxDq0n1FJ6pGRwBYHFCS_Ak3TUVkeksxf4r6w?e=omUIK1
+
 
 
 
