@@ -24,4 +24,10 @@ streamlit run app.py
 
 
 
+## 📌 Video link
+ Using Web interface: https://1drv.ms/v/c/470a9832c1a989ec/EQOtoU0nYblBpHFKeq2ztO0Bc-ozPv_UQEIA01Fgi0jOOw?e=89Epl0
+Using Web cam: https://1drv.ms/v/c/470a9832c1a989ec/ETIkJzwQwsxDq0n1FJ6pGRwBYHFCS_Ak3TUVkeksxf4r6w?e=omUIK1
+
+
+
 
