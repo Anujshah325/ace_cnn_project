@@ -1,14 +1,11 @@
 # 🧠 ACE CNN Project – Handwritten Digit Recognition (MNIST)
 
-![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange?logo=tensorflow)
-![Streamlit](https://img.shields.io/badge/Streamlit-App-red?logo=streamlit)
 
 This project demonstrates a **Convolutional Neural Network (CNN)** trained on the **MNIST dataset** to recognize handwritten digits (0–9).  
 It includes:
-- 📊 Model Training (`train.py`)  
-- 🎥 Real-time Inference via Webcam (`main.py`)  
-- 🌐 Interactive Web App using Streamlit (`app_streamlit.py`)  
+-  Model Training (`train.py`)  
+-  Real-time Inference via Webcam (`main.py`)  
+-  Interactive Web App using Streamlit (`app_streamlit.py`)  
 
 ---
 
@@ -26,7 +23,7 @@ ace_cnn_project/
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 1. Create Virtual Environment
 
@@ -124,6 +121,7 @@ streamlit run app_streamlit.py
 ## 📌 Video link
  Using Web interface: https://1drv.ms/v/c/470a9832c1a989ec/EQOtoU0nYblBpHFKeq2ztO0Bc-ozPv_UQEIA01Fgi0jOOw?e=89Epl0
 Using Web cam: https://1drv.ms/v/c/470a9832c1a989ec/ETIkJzwQwsxDq0n1FJ6pGRwBYHFCS_Ak3TUVkeksxf4r6w?e=omUIK1
+
 
 
 
