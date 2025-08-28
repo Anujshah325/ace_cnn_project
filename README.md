@@ -1,25 +1,122 @@
-# Real-Time Object Classification (MNIST Digits)
+# 🧠 ACE CNN Project – Handwritten Digit Recognition (MNIST)
 
-## 📌 Project Structure
-- `model.py` → CNN architecture
-- `train.py` → Training & evaluation (run in Colab)
-- `main.py` → Real-time webcam inference (local PC)
-- `app_streamlit.py` → Optional web interface
-- `cnn_mnist.h5` → Trained model
+![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange?logo=tensorflow)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red?logo=streamlit)
+
+This project demonstrates a **Convolutional Neural Network (CNN)** trained on the **MNIST dataset** to recognize handwritten digits (0–9).  
+It includes:
+- 📊 Model Training (`train.py`)  
+- 🎥 Real-time Inference via Webcam (`main.py`)  
+- 🌐 Interactive Web App using Streamlit (`app_streamlit.py`)  
 
 ---
-## 📌 Features
-- Train a CNN on MNIST or custom dataset
-- Real-time prediction using webcam (OpenCV)
-- Optional web interface using Streamlit
+
+## 📂 Project Structure
+
+ace_cnn_project/
+│── model.py # CNN model architecture
+│── train.py # Training script
+│── main.py # Real-time webcam inference
+│── app_streamlit.py # Streamlit web interface
+│── requirements.txt # Python dependencies
+│── README.md # Documentation
+│── cnn_mnist.h5 # Saved trained model (after training)
 
 
-## 🚀 How to Run
-```bash
+---
+
+## ⚙️ Setup Instructions
+
+1. Create Virtual Environment
+
+Using Conda:
+
+conda create -n ace_env python=3.10 -y
+conda activate ace_env
+
+Or using venv:
+
+python -m venv ace_env
+.\ace_env\Scripts\activate  # On Windows
+
+2. Install Dependencies
+
 pip install -r requirements.txt
-python model.py
+
+If requirements.txt is missing:
+
+pip install tensorflow numpy pillow matplotlib seaborn scikit-learn opencv-python streamlit
+
+🚀 Training the Model
+
+Run:
+
+python train.py
+
+✔️ This will:
+
+    Train the CNN on the MNIST dataset
+
+    Save the model as cnn_mnist.h5
+
+    Plot Accuracy & Loss graphs
+
+    Display a Confusion Matrix
+
+📊 Sample Training Curves:
+
+    Accuracy: ~99%
+
+    Loss converges quickly with minimal overfitting
+
+🎥 Real-Time Webcam Inference
+
+To predict digits in real-time using your webcam:
+
 python main.py
-streamlit run app.py
+
+🎯 Features:
+
+    Opens a webcam feed
+
+    Detects handwritten digits
+
+    Press q to quit
+
+🌐 Web Interface (Optional)
+
+Run the Streamlit App:
+
+streamlit run app_streamlit.py
+
+🌟 Features:
+
+    Upload digit images
+
+    Get instant predictions
+
+    Clean UI powered by Streamlit
+
+📊 Results
+
+    ✅ Test Accuracy: ~99% on MNIST
+
+    ✅ Robust confusion matrix (minimal misclassifications)
+
+    ⚡ Extendable to custom datasets
+
+📌 Requirements
+
+    Python 3.10+
+
+    TensorFlow 2.x
+
+    NumPy, Pillow, Matplotlib, Seaborn
+
+    Scikit-learn, OpenCV
+
+    Streamlit
 
 
 
@@ -27,6 +124,7 @@ streamlit run app.py
 ## 📌 Video link
  Using Web interface: https://1drv.ms/v/c/470a9832c1a989ec/EQOtoU0nYblBpHFKeq2ztO0Bc-ozPv_UQEIA01Fgi0jOOw?e=89Epl0
 Using Web cam: https://1drv.ms/v/c/470a9832c1a989ec/ETIkJzwQwsxDq0n1FJ6pGRwBYHFCS_Ak3TUVkeksxf4r6w?e=omUIK1
+
 
 
 
